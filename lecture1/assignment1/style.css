@@ -1,0 +1,88 @@
+#header {
+  color: black;
+  margin-top: 20;
+  font-size: x-large;
+  font-weight: 500;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+a {
+  color: black;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-weight: 700;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 20px;
+  font-weight: lighter;
+  color: rgb(62, 62, 62);
+  background-color: rgba(208, 208, 208, 0.144);
+}
+.cred {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+button {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 16px;
+  cursor: pointer;
+}
+input {
+  width: 400px;
+  height: 50px;
+  border: rgb(208, 208, 208) solid 1px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+#signup {
+    background-color: rgb(174, 174, 174);
+    color: white;
+}
+#google {
+  position: relative;
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+#google:hover{
+    background-color: rgba(174, 174, 174, 0.105);
+    box-shadow: 2px black;
+}
+#img{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+}
+.eycon {
+  position: absolute;
+  right: 16px;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+#pass {
+    position: relative;
+    
+}
