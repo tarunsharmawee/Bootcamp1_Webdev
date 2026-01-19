@@ -1,0 +1,178 @@
+.hero-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.workable-hero {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.enrolled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px gray dashed;
+  border-radius: 20px;
+  padding: 6px 10px;
+  font-size: 13px;
+  max-width: 270px;
+}
+.dot {
+  border-radius: 6px;
+  width: 12px;
+  height: 12px;
+  background-color: var(--secondary);
+  margin: 0px 5px;
+}
+.master {
+  margin: 20px 0;
+  font-size: 70px;
+  font-weight: 550;
+  color: var(--primary);
+  letter-spacing: -1.5mm;
+  line-height: 2cm;
+}
+.master-gyan {
+  color: gray;
+  margin-bottom: 25px;
+}
+.learn {
+  background-color: #fff;
+  color: var(--primary);
+  margin-right: 10px;
+}
+.explore {
+  background-color: var(--primary);
+  color: #fff;
+}
+.explore,
+.learn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.senpai {
+  width: 520px;
+  height: 450px;
+}
+/* achievements section */
+
+.achievements {
+  width: 100%;
+  height: 150px;
+  margin: 80px 0px 20px 0px;
+  border-radius: 15px 140px 15px 15px;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+}
+
+.workable-numbers {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+}
+
+.svg-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #8289cd;
+  margin-right: 20px;
+}
+.sculpture {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.sculpture-numbers {
+}
+.sculpture-numbers-sup {
+  font-size: 40px;
+  font-weight: 500;
+}
+.sculpture-numbers-sub {
+  font-size: 16px;
+  color: rgb(202, 202, 202);
+  line-height: 0.02mm;
+}
+.sculpture-mid {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+/* sliilz section */
+.skillz {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  color: #fff;
+}
+.skills {
+  flex: 1.8;
+  background-color: var(--secondary);
+  height: auto;
+  border-radius: 10px 40px;
+}
+.skills-container{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.job-skills{
+    font-size: 35px;
+    font-weight: 600;
+}
+.job-skills-sub{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.medical {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.capsules {
+  padding: 8px 12px;
+  background-color: #fff;
+  color: var(--secondary);
+  border-radius: 20px;
+}
+.motivation {
+  flex: 1.2;
+  background-color: var(--primary);
+  height: auto;
+  border-radius: 10px 40px;
+}
+.motivation-container{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.personally{
+    font-size: 30px;
+    font-weight: 600;
+}
+.personally-sub{
+    font-size: 16px;
+}
