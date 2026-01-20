@@ -1,0 +1,126 @@
+.why {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  background-color: #e5e5e5;
+}
+.workable-why {
+  padding: 60px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.why-hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.why-hero-sup {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 0.1mm;
+  color: var(--primary);
+}
+.why-hero-sub {
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+}
+.courosel {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+}
+.work-card {
+  position: relative;
+  overflow: hidden;
+}
+.work-card::before,
+.work-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 400px;
+  pointer-events: none;
+  z-index: 2;
+}
+.work-card::before {
+  background: linear-gradient(to right, #e5e5e5, transparent);
+}
+.work-card::after {
+  right: 0;
+  background: linear-gradient(to left, #e5e5e5, transparent);
+}
+.cards {
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px 10px 80px 25px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  gap: 15px;
+}
+.mid-card {
+  background-color: var(--primary);
+  color: #fff;
+}
+.card-badge {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: var(--secondary);
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid-card-badge {
+  background-color: #fff;
+  color: black;
+}
+.card-sup {
+  font-size: 20px;
+  font-weight: 500;
+}
+.divider {
+  background-color: aqua;
+  width: 55px;
+  height: 2px;
+}
+.card-sub {
+  font-size: 13px;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: grey;
+}
+.arrow-left {
+  left: 30px;
+}
+.arrow-right {
+  right: 30px;
+}
+
