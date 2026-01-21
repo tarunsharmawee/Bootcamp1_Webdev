@@ -1,0 +1,73 @@
+.podcast{
+    width: 100%;
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    color: #fff;
+}
+.workable-pod{
+    width: 82%;
+    background-color: var(--primary);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.real-workable-pod{
+    padding: 60px 0px;
+    width: 95%;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.pod-raw1{
+    display: flex;
+}
+.pod-raw1-right{
+    width: 40%;
+    position: relative;
+
+}
+.pod-raw1-left{
+    width: 60%;
+}
+.pod-sup{
+    font-size: 35px;
+    font-weight: 500;
+}
+.pod-sub{
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.svg-place{
+        padding-left: 350px;
+}
+.pod-raw2{
+    display: flex;
+}
+.pod-raw2-element{
+    flex: 1;
+}
+.pod-raw2-left{
+    display: flex;
+    flex-direction: column;
+}
+.pod-raw2-right{
+    display: flex;
+    gap: 15px;
+}
+.pod-panel{
+    padding: 15px   10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    border-radius: 10px;
+}
+.pod-text{
+    margin-top: 20px;
+    opacity: 0.8;
+}
