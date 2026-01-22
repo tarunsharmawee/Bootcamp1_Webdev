@@ -1,0 +1,85 @@
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.workable-contact{
+    width: 80%;
+    color: white; background: linear-gradient(
+    to right,
+    #202333 0%,
+    #263356 25%,
+   #254590 50%,
+   #1858e4 100% 
+  );
+  border-radius: 20px 20px 0px 0px ;
+    display: flex;
+
+}
+.duniya{
+    min-width: 50%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.globe {
+  position: absolute;
+
+  width: 125%;      /* make it bigger than container */
+  max-width: none;  /* IMPORTANT: don’t let img shrink */
+
+  left: -40%;       /* push left */
+  bottom: -50%;     /* push down */
+
+  display: block;
+}
+
+.contact-form{
+    min-width: 50%;
+}
+.contact-sup{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.contact-sub{
+    font-size: 16px;
+    margin: 20px 0px 40px 0px;
+    opacity: 0.8;
+}
+.contact-input{
+    width: 500px;
+    padding: 16px 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px 0px;
+    color: white;
+    font-size: 16px;
+}
+textarea{
+    width: 500px;
+    padding: 16px 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px 0px;
+    color: white;
+    font-size: 16px;
+    resize: none;
+    height: 150px;
+}
+.submit{
+    margin: 10px 0px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.submit-btn{
+
+    background-color:#00ddb3;
+    font-weight: 500;
+    font-size: 16px;
+}

@@ -1,0 +1,86 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.workable-foot{
+    padding-top: 40px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 60px;
+}
+.foot-sup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot1{
+        font-size: 25px;
+    font-size: 30px;
+    font-weight: 500;
+
+
+}
+.foot1 > a, .foot2 > a, .foot3 >a{
+    color: white;
+    text-decoration: none;
+
+}
+.foot2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0.8;
+}
+.foot2 > a{
+    color: white;
+    text-decoration: none;
+}
+.foot3{
+    display: flex;
+    flex-direction: column;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
+
+}
+.social-link{
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+}
+.rights{
+    margin-top: 20px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.text-wrap {
+  background: black;      /* 🔥 THIS WAS MISSING */
+  overflow: hidden;       /* 🔥 CUTS THE BOTTOM */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;          /* controls crop */
+}
+.big-text {
+  font-size: 250px;
+  font-weight: 800;
+  line-height: 1;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.25),
+    rgba(255,255,255,0)
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
