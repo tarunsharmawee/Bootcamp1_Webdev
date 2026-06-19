@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        async function add() {
+            const a = document.getElementById("first").value
+            const b = document.getElementById("second").value
+
+            const res = await fetch("http://localhost:3000/sum/" + a + "/" + b)
+            const json = await res.json()
+            document.getElementById("response").innerHTML = json.ans
+        }
+        async function div() {
+            const a = document.getElementById("first").value
+            const b = document.getElementById("second").value
+
+            const res = await fetch("http://localhost:3000/div/", {
+                method: "POST",
+                headers : {
+                    "Content-Type" : "application/json"
+                },
+                body: JSON.stringify({
+                    a : a,
+                    b : b
+                })
+            })
+            const json = await res.json()
+            document.getElementById("response").innerHTML = json.ans
+        }
+    </script>
+</head>
+<body style="background-color: azure; font-size: xx-large;">
+
+    <input id="first" type="text" placeholder="first number" />
+    <input id="second" type="text" placeholder="second number" />
+
+    <button onclick="add()">sum</button>
+    <button>sub</button>
+    <button onclick="div()">div</button>
+    <button>mul</button>
+
+    <div id="response"></div>
+</body>
+</html>
