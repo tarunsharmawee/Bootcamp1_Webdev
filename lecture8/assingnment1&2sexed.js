@@ -8,7 +8,7 @@ let burger = 0
 
 
 const dataCollect = (req, res, next) => {
-    reqCount++
+    reqCount++ 
     if (req.method == "POST") {
         postMeth++
     }
